@@ -1,0 +1,100 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body
+{
+   display:grid;
+   place-items:center;
+   height: 100vh;
+   background-image:url("https://www.arijitsworkout.com/newdev/wp-content/uploads/2016/06/meditate2.jpg");
+   background-size:cover;
+   background-repeat:no-repeat;
+   
+}
+#container
+{
+    height:400px;
+    width:700px;
+    background:#fff;
+    display:flex;
+    flex-direction:row;
+    border-radius:20px 0;
+    box-shadow:2px 2px 4px #00000010, -2px -2px 4px #00000010;
+    border-radius: 20px;
+
+}
+#Calculator,#Guide
+{
+    height:400px;
+    width: 350px;
+    padding:20px;
+    
+}
+#Guide
+{
+ background:rgb(157, 177, 177);
+ border-radius: 20px;
+}
+#Calculator h2,#Guide h2
+{
+text-align:center;
+font-size:30px;
+margin:20px 0;
+color:#1479ff;
+}
+#Guide h2
+{
+    color:#000;
+    letter-spacing:2px;
+    font-size: 40px;
+
+}
+#Calculator input[type="text"]
+{
+ height: 45px;
+ width: 310px;
+ margin:10px 0;
+ padding:0px 15px;
+ border: 2px solid #1479ff;
+ outline:none;
+ background:#f3f8ff;
+ color:#1479ff;
+ font-size: 15px;
+ font-weight: 800;
+}
+#Calculator input[type="text"]::placeholder
+{
+    color:#1479ff
+}
+#Calculator input[type="submit"]
+{
+ height: 50px;
+ width: 310px;
+ margin:20px 0;
+ padding:0px 15px;
+ border: none;
+ outline:none;
+ background:#1479ff;
+ color:#fff;
+ font-size: 15px;
+ font-weight: 800;
+ cursor:pointer;
+}
+#Calculator #YourBMI
+{
+    font-size: 20px;
+    color: #1479ff;
+    font-weight: 800;
+}
+#Guide ul{
+    padding: 0 20px;
+
+}
+#Guide ul li 
+{
+ height: 50px;
+ font-size: 16px;
+}
